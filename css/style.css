@@ -1,0 +1,125 @@
+.cover {
+  width: 100%;
+  height: 300px;
+  background-color: #eee;
+  background: url("../res/cover.jpg") center no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.picture {
+  position: relative;
+  top: -100px;
+  height: 200px;
+  width: 200px;
+  bottom: 20px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-image: url("../res/pic.jpg");
+  background-size: cover;
+}
+
+.social {
+  /*background-color: aqua;
+  width: min-content;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;*/
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  font-size: 50px;
+  top: -50px;
+  color: #444;
+}
+.name:hover {
+  color: rgb(10, 165, 226);
+  text-decoration: underline;
+  cursor: default;
+}
+.heading {
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #2196f3;
+  background-color: #eee;
+}
+.heading:hover,
+.Langues:hover,
+.Interests:hover {
+  color: rgb(10, 165, 226);
+  text-decoration: underline;
+  cursor: default;
+}
+.tagline {
+  color: rgb(21, 17, 246);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.fa-linkedin-in {
+  margin: 0 2px;
+  color: darkorchid;
+}
+.fa-instagram {
+  margin: 0 20px;
+  color: rgb(238, 77, 49);
+}
+.fa-facebook {
+  margin: 0 2px;
+  color: rgb(238, 198, 20);
+}
+.Work-experience,
+.Education {
+  height: 500px;
+  overflow: hidden;
+}
+.Work-experience {
+  margin-right: 10px;
+}
+.machrou3,
+.Langues {
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #2196f3;
+  background-color: #eee;
+  padding-left: 10px;
+}
+.machrou3:hover {
+  color: rgb(10, 165, 226);
+  text-decoration: underline;
+  cursor: default;
+}
+.Personal-skills {
+  margin-left: 10px;
+}
+.pic1:hover,
+.pic2:hover,
+.pic3:hover {
+  transform: rotate(360deg);
+  transition: all 0.37s;
+}
+.Langue {
+  font-size: 1.35em;
+  color: rgb(8, 28, 204);
+}
+.Languages {
+  margin-top: 160px;
+  border-spacing: 15px s50px;
+}
+.pics {
+  position: relative;
+  justify-content: space-between;
+  margin: auto;
+}
